@@ -294,10 +294,14 @@ footer a {
     height: 60px;
 }
 
+#chucknorris {
+    text-align: center;
+}
+
 @media only screen and (min-width: 1000px) {
     .about-container {
         flex-direction: row-reverse;
-        max-width: 65%;
+        max-width: 85%;
     }
 
     .about-container .image-container {
