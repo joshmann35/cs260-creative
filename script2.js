@@ -1,7 +1,7 @@
 /* global fetch */
 
 function getFact() {
-    fetch("https://api.chucknorris.io/jokes/random")
+    fetch("https://api.chucknorris.io/jokes/random?category=food")
         .then((response) => {
             if (response.status != 200) {
                 console.error("Error calling the API service: " + response.statusText);
